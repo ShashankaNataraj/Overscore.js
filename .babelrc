@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "latest"
+  ],
+  "sourceMaps": "inline",
+  "retainLines": true,
+  "env": {
+    "development": {
+    },
+    "production": {
+      "plugins": [
+      ]
+    },
+    "test": {
+      "plugins": []
+    }
+  }
+}
