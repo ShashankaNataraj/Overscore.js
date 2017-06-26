@@ -1,6 +1,6 @@
 class ArrayUtils {
     constructor() {
-        return {initial: this.initial};
+        return {first: this.first, head: this.first, take: this.first};
 
     }
     /**
@@ -8,19 +8,15 @@ class ArrayUtils {
      *
      * @param {Array} array
      * @param {any} n
-     * @memberof Array
+     * @memberof ArrayUtils
      */
-    initial(array, n) {
-        let first,
-            remaining;
-        if (!n) { // if n isnt passed just do a first
-            [
-                first, ...remaining
-            ] = [...array];
-            return first;
-        } else {
-            return array.slice(0, n);
+    first(passedArray = [], n = 1) {
+        if (arguments.length === 0 || passedArray.length === null || passedArray.length === 0 || !(passedArray instanceof Array) || typeof n !== 'number') {
+            return undefined;
         }
+        let slicedArray = passedArray.slice(0, n),
+            [ first, ...remaining ] = slicedArray;
+        return n === 1 ? first : slicedArray;
     }
 }
 
