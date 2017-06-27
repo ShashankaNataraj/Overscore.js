@@ -8,5 +8,9 @@ describe('ArrayUtils', function () {
     it('Should return the first element when only an array is passed', () => assert.equal(ArrayUtils.first(scaffoldArray), 1));
     it('Should return the first n elements when n is specified', () => assert.deepEqual(ArrayUtils.first(scaffoldArray, 2), [1, 2]));
     it('Should alias the first n elements when n is specified', () => assert.deepEqual(ArrayUtils.first(scaffoldArray, 2), [1, 2]));
+    it('Should be available as #head and #take', () => {
+      assert.strictEqual(ArrayUtils.first.prototype, ArrayUtils.head.prototype);
+      assert.strictEqual(ArrayUtils.first.prototype, ArrayUtils.take.prototype);
+    });
   });
 });

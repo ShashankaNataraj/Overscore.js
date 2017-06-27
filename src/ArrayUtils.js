@@ -1,7 +1,6 @@
 class ArrayUtils {
     constructor() {
         return {first: this.first, head: this.first, take: this.first};
-
     }
     /**
      * Returns the first element of an array. Passing n will return the first n elements of the array
