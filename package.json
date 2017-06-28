@@ -30,6 +30,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
     "jasmine": "^2.6.0",
     "jasmine-console-reporter": "^1.2.7",
     "jasmine-spec-reporter": "^4.1.1",
