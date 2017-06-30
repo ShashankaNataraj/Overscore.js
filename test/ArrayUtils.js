@@ -24,8 +24,8 @@ describe('ArrayUtils', () => {
       assert.deepEqual(ArrayUtils.initial(scaffoldArray, 3), [1]);
     });
   });
-  describe('#last', () => {
-    it('Should return undefined when null args are passed', () => assert.strictEqual(ArrayUtils.last(null, null), undefined));
-    it('Should return undefined when undefined args are passed', () => assert.strictEqual(ArrayUtils.last(null, null), undefined));
-  });
+  // describe('#last', () => {
+  //   it('Should return undefined when null args are passed', () => assert.strictEqual(ArrayUtils.last(null, null), undefined));
+  //   it('Should return undefined when undefined args are passed', () => assert.strictEqual(ArrayUtils.last(null, null), undefined));
+  // });
 });
