@@ -34,6 +34,6 @@
     "jasmine": "^2.6.0",
     "jasmine-console-reporter": "^1.2.7",
     "jasmine-spec-reporter": "^4.1.1",
-    "mocha": "^3.4.2"
+    "mocha": "^5.0.4"
   }
 }
