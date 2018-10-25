@@ -31,7 +31,7 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.24.1",
-    "jasmine": "^2.6.0",
+    "jasmine": "^3.3.0",
     "jasmine-console-reporter": "^1.2.7",
     "jasmine-spec-reporter": "^4.1.1",
     "mocha": "^3.4.2"
